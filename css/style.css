@@ -105,7 +105,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   margin-top: 0;
   text-transform: uppercase;
-  color: #111;
   letter-spacing: 0.05em;
   font-weight: 700;
 }
@@ -116,6 +115,12 @@ h3 { font-size: 21px; }
 h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 15px; }
+
+h2, h3, h4, h5, h6 {
+    background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 p {
   font-size: 15px;
@@ -314,6 +319,8 @@ p {
 .logo-container {
   padding: 0 15px;
   float: left;
+  background: #fff;
+  box-shadow: 2px 0px 35px 10px #dadada;
 }
 
 .logo-wrap {
@@ -359,11 +366,15 @@ p {
 .navbar-nav > .active > a:hover,
 .menu-socials li > a:hover {
   opacity: 1;
-  color: #bfa67a !important;
+  font-size: 1.3em;
+  background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu-socials li > a:hover {
-  border-color: #bfa67a;
+  border-color: #3f6d9c;
+  -webkit-text-fill-color: inherit;
 }
 
 .navbar-collapse {
@@ -649,8 +660,8 @@ p {
 /* Effect 1 */
 .icon-effect-1 .hi-icon {
   background-color: transparent;
-  color: #bfa67a;
-  border: 2px solid #bfa67a;
+  color: #bf9a5f;
+  border: 2px solid #3f6d9c;
   -webkit-transition: background 0.2s, color 0.2s;
   -moz-transition: background 0.2s, color 0.2s;
   transition: background 0.2s, color 0.2s;
@@ -660,7 +671,7 @@ p {
   top: -5px;
   left: -5px;
   padding: 5px;
-  box-shadow: 0 0 0 2px #111;
+  box-shadow: 0 0 0 2px #3f6d9c;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -webkit-transform: scale(.8);
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -672,8 +683,8 @@ p {
 }
 
 .icon-effect-1a .hi-icon:hover {
-  background: rgba(17, 17, 17,1);
-  color: #fff;
+  background: #bf9a5f;
+  color: #3f6d9c;
   border-color: transparent;
 }
 
@@ -2195,6 +2206,7 @@ input.searchbox:focus {
   font-size: 20px;
   max-width: 800px;
   margin: 24px auto 0;
+  -webkit-text-fill-color: initial;
 }
 
 .buttons-holder > a {
