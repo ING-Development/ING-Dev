@@ -45,7 +45,7 @@
 
 a {
   text-decoration: none;
-  color: #bfa67a;
+  color: #1ee7ed;
   outline: none;
   -webkit-transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
@@ -358,11 +358,11 @@ p {
 .navbar-nav > .active > a:hover,
 .menu-socials li > a:hover {
   opacity: 1;
-  color: #bfa67a !important;
+  color: #1ee7ed !important;
 }
 
 .menu-socials li > a:hover {
-  border-color: #bfa67a;
+  border-color: #1ee7ed;
 }
 
 .navbar-collapse {
@@ -648,8 +648,8 @@ p {
 /* Effect 1 */
 .icon-effect-1 .hi-icon {
   background-color: transparent;
-  color: #bfa67a;
-  border: 2px solid #bfa67a;
+  color: #1ee7ed;
+  border: 2px solid #1ee7ed;
   -webkit-transition: background 0.2s, color 0.2s;
   -moz-transition: background 0.2s, color 0.2s;
   transition: background 0.2s, color 0.2s;
@@ -1511,7 +1511,7 @@ textarea:focus {
 
 .socials.footer-socials a:hover i {
 	color: #fff;
-	background-color: #bfa67a;
+	background-color: #1ee7ed;
 }
 
 
