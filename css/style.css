@@ -120,6 +120,7 @@ h2, h3, h4, h5, h6 {
     background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: #336DCC;
 }
 
 p {
@@ -370,6 +371,7 @@ p {
   background: -webkit-linear-gradient(top, #a7cfdf 0%, #23538a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #336DCC;
 }
 
 .menu-socials li > a:hover {
