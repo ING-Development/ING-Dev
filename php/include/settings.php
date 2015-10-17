@@ -5,15 +5,15 @@
 	$APIKey = "API-KEY";
 
 	// Database
-	$host = 'YOUR-HOST';
-	$username = 'YOUR-USER';
-	$password = 'YOUR-PASSWORD';
-	$database = 'TEMPLATE-DATABASE';
-	
+	$host = 'localhost';
+	$username = 'ing';
+	$password = 'iraq2009';
+	$database = 'seventyTwo';
+
 	// Contact
-	$to = 'YOUR-EMAIL-ADDRESS';
-    $subject = 'Subject here...';
-	
+	$to = 'Georgiev@maxds.eu';
+    $subject = 'testing data';
+
 	// Variant
 	$useMailChimp = "NO";
 
