@@ -46,7 +46,7 @@
 
 a {
   text-decoration: none;
-  color: #bfa67a;
+  color: #1ee7ed;
   outline: none;
   -webkit-transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
@@ -377,6 +377,11 @@ p {
 .menu-socials li > a:hover {
   border-color: #3f6d9c;
   -webkit-text-fill-color: inherit;
+  color: #1ee7ed !important;
+}
+
+.menu-socials li > a:hover {
+  border-color: #1ee7ed;
 }
 
 .navbar-collapse {
@@ -1525,7 +1530,7 @@ textarea:focus {
 
 .socials.footer-socials a:hover i {
 	color: #fff;
-	background-color: #bfa67a;
+	background-color: #1ee7ed;
 }
 
 
@@ -3555,4 +3560,4 @@ ol.numbers {
 
 .col-xs-16 {
   width: 100%;
-}
+} 
