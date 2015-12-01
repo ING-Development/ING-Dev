@@ -380,10 +380,6 @@ p {
   color: #1ee7ed !important;
 }
 
-.menu-socials li > a:hover {
-  border-color: #1ee7ed;
-}
-
 .navbar-collapse {
   padding: 0;
   border-top: none;
